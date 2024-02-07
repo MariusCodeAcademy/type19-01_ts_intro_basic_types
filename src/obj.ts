@@ -19,3 +19,4 @@ function userInfo(userObj: object) {
   // userObj.name is admin
   // userObj.name is not admin
 }
+userInfo(user2);
