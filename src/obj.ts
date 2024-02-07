@@ -23,4 +23,4 @@ function userInfo(userObj: { id: number; name: string; isAdmin: boolean }) {
 }
 userInfo(user2);
 userInfo(user1);
-userInfo({ name: 'Jane', isAdmin: false });
+// userInfo({ name: 'Jane', isAdmin: false });
