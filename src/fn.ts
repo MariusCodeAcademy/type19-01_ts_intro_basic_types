@@ -38,10 +38,16 @@ sum(4, 5);
 
 // makePrice(50) => '$50.00'
 
-function makePrice(value: number): string {
+// function makePrice(value: number): string {
+//   const rez: string = `$${value.toFixed(2)}`;
+//   console.log('rez ===', rez);
+//   return rez;
+// }
+
+const makePrice = (value: number): string => {
   const rez: string = `$${value.toFixed(2)}`;
   console.log('rez ===', rez);
   return rez;
-}
+};
 
 makePrice(100);
