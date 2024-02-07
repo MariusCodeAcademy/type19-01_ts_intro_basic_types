@@ -2,12 +2,12 @@
 // basic types
 Object.defineProperty(exports, "__esModule", { value: true });
 // number, string, boolean, null, undefined, void
-var num = 5;
+let num = 5;
 num = 10;
 num = 'asd';
-var str = 'James';
+let str = 'James';
 str = true;
-var isAdmin;
+let isAdmin;
 isAdmin = false;
 isAdmin = !!0;
 isAdmin = Boolean('0');
