@@ -6,11 +6,13 @@ let num = 5;
 
 num = 10;
 
-num = 'asd';
+// num = 'asd';
 
 let str = 'James';
 
-str = true;
+console.log('str ===', str);
+
+// str = true;
 
 let isAdmin: boolean;
 
